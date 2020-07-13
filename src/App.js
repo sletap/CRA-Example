@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
 import Form from './Form.js'
+import './App.css';
 
 function App() {
   let question= "Who has the worst spice tolerance?";
