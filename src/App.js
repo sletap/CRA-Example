@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Form from './Form.js'
 
 function App() {
+  let question= "Who has the worst spice tolerance?";
+  let greeting= "That's weak";
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +21,10 @@ function App() {
         >
           Learn React
         </a>
+        <Form 
+          question={question}
+          greeting={greeting}
+        />
       </header>
     </div>
   );
